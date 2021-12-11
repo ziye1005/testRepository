@@ -1,0 +1,6 @@
+COMMENT ON COLUMN scott.ZSZF2.ID IS '标识';
+COMMENT ON COLUMN scott.ZSZF2.TargetID IS '目标批号,KQ态势批号';
+COMMENT ON COLUMN scott.ZSZF2.PointID IS '当前航点号';
+COMMENT ON COLUMN scott.ZSZF2.TacticalMethodsID IS 'Z术Z法编号';
+COMMENT ON COLUMN scott.ZSZF2.Probability IS '匹配概率';
+COMMENT ON COLUMN scott.ZSZF2.ImportTime IS '更新时间';

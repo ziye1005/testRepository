@@ -1,0 +1,8 @@
+create table scott.ZSZF2(
+ID VARCHAR2(20),
+TargetID VARCHAR2(20),
+PointID VARCHAR2(20),
+TacticalMethodsID VARCHAR2(20),
+Probability NUMBER(3),
+ImportTime  DATE,
+primary key(ID));
