@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.njust.mapper.TargetsRecogWeightsMapper">
+    <insert id="insert">
+        INSERT into  BN."target_recog_weights"("id","weight_basic", "weight_rcs", "weight_trackline", "weight_tactics")
+        values(#{weights.id}, #{weights.weight_basic}, #{weights.weight_rcs}, #{weights.weight_trackline}, #{weights.weight_tactics})
+    </insert>
+    <select id="select" resultType="edu.njust.model.TargetRecogWeights">
+        SELECT * from BN."target_recog_weights" where "id" = #{id}
+    </select>
+    <select id="selectAll" resultType="edu.njust.model.TargetRecogWeights">
+        SELECT * FROM BN."target_recog_weights"
+    </select>
+</mapper>

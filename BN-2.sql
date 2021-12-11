@@ -1,0 +1,320 @@
+/*
+ Navicat Premium Data Transfer
+
+ Source Server         : BN
+ Source Server Type    : Oracle
+ Source Server Version : 110200
+ Source Host           : 127.0.0.1:1521
+ Source Schema         : BN
+
+ Target Server Type    : Oracle
+ Target Server Version : 110200
+ File Encoding         : 65001
+
+ Date: 24/09/2021 01:29:05
+*/
+
+
+-- ----------------------------
+-- Table structure for node
+-- ----------------------------
+DROP TABLE "BN"."node";
+CREATE TABLE "BN"."node" (
+  "id" NUMBER NOT NULL,
+  "name" VARCHAR2(255 BYTE) NOT NULL,
+  "type" NUMBER NOT NULL,
+  "state" CLOB NOT NULL,
+  "cpt" CLOB
+)
+LOGGING
+NOCOMPRESS
+PCTFREE 10
+INITRANS 1
+STORAGE (
+  INITIAL 65536 
+  NEXT 1048576 
+  MINEXTENTS 1
+  MAXEXTENTS 2147483645
+  BUFFER_POOL DEFAULT
+)
+PARALLEL 1
+NOCACHE
+DISABLE ROW MOVEMENT
+;
+
+-- ----------------------------
+-- Records of node
+-- ----------------------------
+INSERT INTO "BN"."node" VALUES ('0', 'WuLiTeXing', '0', 'Qiang,Ruo', '0.58,0.42000002');
+INSERT INTO "BN"."node" VALUES ('1', 'HangCheng', '0', 'Yuan,Jin', '0.48275864,0.51724136,0.59523803,0.40476194');
+INSERT INTO "BN"."node" VALUES ('2', 'ZuoZhanBanJing', '0', 'Yuan,Jin', '0.5,0.5,0.45238099,0.54761904');
+INSERT INTO "BN"."node" VALUES ('3', 'ZuiDaQiFeiZhongLiang', '0', 'Da,Xiao', '0.5344827,0.46551725,0.35714293,0.6428571');
+INSERT INTO "BN"."node" VALUES ('4', 'ZhiKongShiJian', '0', 'Chang,Duan', '0.62068963,0.37931037,0.5,0.5');
+INSERT INTO "BN"."node" VALUES ('5', 'XunHangSuDu', '0', 'Kuai,Man', '0.46551725,0.5344827,0.5238095,0.47619048');
+INSERT INTO "BN"."node" VALUES ('6', 'RCS', '0', 'Da,Xiao', '0.46551725,0.5344827,0.54761904,0.45238099');
+INSERT INTO "BN"."node" VALUES ('7', 'JiDongNengLi', '0', 'Qiang,Ruo', '0.5689655,0.4310345,0.57142854,0.42857146');
+INSERT INTO "BN"."node" VALUES ('8', 'ShiYongShengXian', '0', 'Da,Xiao', '0.39655176,0.6034483,0.57142854,0.42857146');
+INSERT INTO "BN"."node" VALUES ('9', 'KongZhongJiaYouNengLi', '0', 'T,F', '0.58620685,0.41379312,0.42857146,0.57142854');
+INSERT INTO "BN"."node" VALUES ('10', 'PaShengLv', '0', 'Da,Xiao', '0.4385965,0.5614035,0.65116274,0.3488373');
+INSERT INTO "BN"."node" VALUES ('11', 'XianZhiGuoZai', '0', 'Da,Xiao', '0.5263158,0.47368422,0.4651163,0.5348837');
+INSERT INTO "BN"."node" VALUES ('12', 'TuiZHongBi', '0', 'Da,Xiao', '0.57894737,0.42105263,0.5813953,0.4186047');
+INSERT INTO "BN"."node" VALUES ('13', 'DianCiPingTai', '1', 'Qiang,Ruo', '0.5,0.5');
+INSERT INTO "BN"."node" VALUES ('15', 'FeiTongZhenChaNengLi', '1', 'Qiang,Ruo', '0.56,0.44000003,0.42000002,0.58');
+INSERT INTO "BN"."node" VALUES ('16', 'KeJianGuangChengXiangZhenCha', '1', 'Qiang,Ruo', '0.59999996,0.40000004,0.44000003,0.56');
+INSERT INTO "BN"."node" VALUES ('18', 'HongWaiChengXiangZhenCha', '1', 'Qiang,Ruo', '0.48000002,0.52,0.48000002,0.52');
+INSERT INTO "BN"."node" VALUES ('19', 'ShiBieJingDu0', '1', 'Gao,Di', '0.5245902,0.47540984,0.5384615,0.4615385');
+INSERT INTO "BN"."node" VALUES ('21', 'MaiKuanJingDu0', '1', 'Gao,Di', '0.55737704,0.44262296,0.5384615,0.4615385');
+INSERT INTO "BN"."node" VALUES ('22', 'ZhenChaJuLi0', '1', 'Chang,Duan', '0.45901638,0.5409836,0.4871795,0.5128205');
+INSERT INTO "BN"."node" VALUES ('24', 'DingWeiJingDu1', '1', 'Gao,Di', '0.4081633,0.5918367,0.41176474,0.58823526');
+INSERT INTO "BN"."node" VALUES ('26', 'ZhenChaJuLi1', '1', 'Chang,Duan', '0.5510204,0.44897962,0.5686274,0.43137258');
+INSERT INTO "BN"."node" VALUES ('27', 'MaiKuanJingDu2', '1', 'Gao,Di', '0.38461542,0.6153846,0.45833334,0.5416666');
+INSERT INTO "BN"."node" VALUES ('29', 'DingWeiJingDu2', '1', 'Gao,Di', '0.4423077,0.5576923,0.5625,0.43750003');
+INSERT INTO "BN"."node" VALUES ('30', 'ShiBieJingDu2', '1', 'Gao,Di', '0.5,0.5,0.5625,0.43750003');
+INSERT INTO "BN"."node" VALUES ('32', 'MaiKuanJingDu3', '1', 'Gao,Di', '0.42000002,0.58,0.48000002,0.52');
+INSERT INTO "BN"."node" VALUES ('33', 'ShiBieJingDu3', '1', 'Gao,Di', '0.53999996,0.46,0.48000002,0.52');
+INSERT INTO "BN"."node" VALUES ('35', 'ShiBieJingDu4', '1', 'Gao,Di', '0.5625,0.43750003,0.4423077,0.5576923');
+INSERT INTO "BN"."node" VALUES ('36', 'DingWeiJingDu4', '1', 'Gao,Di', '0.5833333,0.4166667,0.5,0.5');
+INSERT INTO "BN"."node" VALUES ('38', 'ZhenChaJuLi4', '1', 'Chang,Duan', '0.45833334,0.5416666,0.5961538,0.40384617');
+INSERT INTO "BN"."node" VALUES ('39', 'MuBiaoShuXing', '2', 'Qiang,Ruo', '0.56,0.44000003');
+INSERT INTO "BN"."node" VALUES ('41', 'QiFeiJiChang', '2', 'a0,a1', '0.5535714,0.4464286,0.5454545,0.45454547');
+INSERT INTO "BN"."node" VALUES ('43', 'FeiXingHangXian', '3', 'GaoWeiXie,DiWeiXie', '0.53,0.47');
+INSERT INTO "BN"."node" VALUES ('44', 'GaoDu', '3', 'Gao,Di', '0.67924523,0.32075477,0.4680851,0.5319149');
+INSERT INTO "BN"."node" VALUES ('45', 'BianJIngHaiAn', '3', 'Yuan,Jin', '0.5471698,0.4528302,0.5531915,0.44680855');
+INSERT INTO "BN"."node" VALUES ('48', 'WuLiTeXing', '4', 'Qiang,Ruo', '0.5999999,0.4000001,0.35000017,0.64999986,0.5652173,0.43478265,0.64285696,0.35714307,0.7391302,0.26086977');
+INSERT INTO "BN"."node" VALUES ('50', 'DianCiPingTai', '4', 'Qiang,Ruo', '0.54999995,0.45000005,0.30000022,0.6999998,0.5652173,0.43478265,0.64285696,0.35714307,0.47826087,0.5217391');
+INSERT INTO "BN"."node" VALUES ('52', 'WuLiTeXing', '5', 'Qiang,Ruo', '0.51,0.49');
+INSERT INTO "BN"."node" VALUES ('53', 'HangCheng', '5', 'Yuan,Jin', '0.45098042,0.5490196,0.5102041,0.48979592');
+INSERT INTO "BN"."node" VALUES ('54', 'ZuoZhanBanJing', '5', 'Yuan,Jin', '0.35294122,0.6470588,0.48979592,0.5102041');
+INSERT INTO "BN"."node" VALUES ('56', 'ZhiKongShiJian', '5', 'Chang,Duan', '0.5098039,0.49019608,0.57142854,0.42857146');
+INSERT INTO "BN"."node" VALUES ('57', 'XunHangSuDu', '5', 'Kuai,Man', '0.58823526,0.41176474,0.44897962,0.5510204');
+INSERT INTO "BN"."node" VALUES ('14', 'TongXinZhenChaNengLi', '1', 'Qiang,Ruo', '0.61999995,0.38000005,0.59999996,0.40000004');
+INSERT INTO "BN"."node" VALUES ('17', 'SARChengXiangZhenCha', '1', 'Qiang,Ruo', '0.48000002,0.52,0.52,0.48000002');
+INSERT INTO "BN"."node" VALUES ('20', 'DingWeiJingDu0', '1', 'Gao,Di', '0.4262295,0.57377046,0.43589747,0.56410253');
+INSERT INTO "BN"."node" VALUES ('23', 'ShiBieJingDu1', '1', 'Gao,Di', '0.61224484,0.38775516,0.49019608,0.5098039');
+INSERT INTO "BN"."node" VALUES ('25', 'MaiKuanJingDu1', '1', 'Gao,Di', '0.53061223,0.46938777,0.43137258,0.5686274');
+INSERT INTO "BN"."node" VALUES ('28', 'ZhenChaJuLi2', '1', 'Chang,Duan', '0.5384615,0.46153846,0.5208333,0.4791667');
+INSERT INTO "BN"."node" VALUES ('31', 'ZhenChaJuLi3', '1', 'Chang,Duan', '0.38000005,0.61999995,0.40000004,0.59999996');
+INSERT INTO "BN"."node" VALUES ('34', 'DingWeiJingDu3', '1', 'Gao,Di', '0.52,0.48000002,0.58,0.42000002');
+INSERT INTO "BN"."node" VALUES ('37', 'MaiKuanJingDu4', '1', 'Gao,Di', '0.5416666,0.45833334,0.5,0.5');
+INSERT INTO "BN"."node" VALUES ('40', 'GuoJiaDiQu', '2', 'c0,c1', '0.53571427,0.46428573,0.5,0.5');
+INSERT INTO "BN"."node" VALUES ('42', 'JiXing', '2', 'E8C,U2,RC135,Yun9DianZi,EP3', '0.1428572,0.26785707,0.16071431,0.26785707,0.16071431,0.15909097,0.15909097,0.22727269,0.15909097,0.29545444');
+INSERT INTO "BN"."node" VALUES ('46', 'WeiXieDengJi', '4', 'Level1,Level2,Level3,Level4,Level5', '0.2,0.2,0.22999999,0.14000003,0.22999999');
+INSERT INTO "BN"."node" VALUES ('47', 'RenWuShuXing', '4', 'YanXun,ZhenCha,ZhuanChang', '0.20000021,0.35,0.4499998,0.20000021,0.35,0.4499998,0.34782606,0.30434787,0.34782606,0.3571428,0.21428597,0.42857122,0.39130425,0.17391326,0.43478248');
+INSERT INTO "BN"."node" VALUES ('49', 'MuBiaoShuXing', '4', 'Qiang,Ruo', '0.54999995,0.45000005,0.64999986,0.35000017,0.60869557,0.39130443,0.42857155,0.5714285,0.5217391,0.47826087');
+INSERT INTO "BN"."node" VALUES ('51', 'FeiXingHangXian', '4', 'GaoWeiXie,DiWeiXie', '0.5,0.5,0.64999986,0.35000017,0.5217391,0.47826087,0.5,0.5,0.47826087,0.5217391');
+INSERT INTO "BN"."node" VALUES ('55', 'ZuiDaQiFeiZhongLiang', '5', 'Da,Xiao', '0.49019608,0.5098039,0.5510204,0.44897962');
+INSERT INTO "BN"."node" VALUES ('72', 'GuoJiaDiQu', '7', 'c0,c1', '0.5,0.5,0.63461536,0.36538464');
+INSERT INTO "BN"."node" VALUES ('74', 'JiXing', '7', 'B2,B52', '0.45833334,0.5416666,0.48076925,0.5192308');
+INSERT INTO "BN"."node" VALUES ('77', 'GaoDu', '8', 'Gao,Di', '0.45614037,0.54385966,0.6046511,0.39534888');
+INSERT INTO "BN"."node" VALUES ('79', 'RenWuShuXing', '9', 'YanXun,ZhenCha,ZhuanChang', '0.19230786,0.4615383,0.34615383,0.27272737,0.3636363,0.3636363,0.25000012,0.3999999,0.35,0.4374998,0.31250003,0.25000015,0.49999967,0.37499994,0.12500039');
+INSERT INTO "BN"."node" VALUES ('81', 'MuBiaoShuXing', '9', 'Qiang,Ruo', '0.423077,0.576923,0.590909,0.409091,0.45000005,0.54999995,0.37500018,0.6249998,0.5624999,0.4375001');
+INSERT INTO "BN"."node" VALUES ('82', 'WuQiPingTai', '9', 'Qiang,Ruo', '0.80769205,0.19230793,0.6363635,0.3636365,0.45000005,0.54999995,0.6249998,0.37500018,0.7499997,0.25000033');
+INSERT INTO "BN"."node" VALUES ('86', 'HangCheng', '10', 'Yuan,Jin', '0.4186047,0.5813953,0.47368422,0.5263158');
+INSERT INTO "BN"."node" VALUES ('89', 'ZhiKongShiJian', '10', 'Chang,Duan', '0.5813953,0.4186047,0.4385965,0.5614035');
+INSERT INTO "BN"."node" VALUES ('91', 'ShiYongShengXian', '10', 'Da,Xiao', '0.37209308,0.6279069,0.50877196,0.49122807');
+INSERT INTO "BN"."node" VALUES ('94', 'PaShengLv', '10', 'Da,Xiao', '0.5128205,0.4871795,0.5081967,0.4918033');
+INSERT INTO "BN"."node" VALUES ('96', 'XianZhiGuoZai', '10', 'Da,Xiao', '0.4871795,0.5128205,0.40983608,0.59016395');
+INSERT INTO "BN"."node" VALUES ('58', 'RCS', '5', 'Da,Xiao', '0.41176474,0.58823526,0.69387746,0.3061225');
+INSERT INTO "BN"."node" VALUES ('59', 'JiDongNengLi', '5', 'Qiang,Ruo', '0.49019608,0.5098039,0.48979592,0.5102041');
+INSERT INTO "BN"."node" VALUES ('60', 'ShiYongShengXian', '5', 'Da,Xiao', '0.3921569,0.6078431,0.53061223,0.46938777');
+INSERT INTO "BN"."node" VALUES ('61', 'KongZhongJiaYouNengLi', '5', 'T,F', '0.5098039,0.49019608,0.65306115,0.34693882');
+INSERT INTO "BN"."node" VALUES ('62', 'PaShengLv', '5', 'Da,Xiao', '0.38775516,0.61224484,0.52941173,0.47058824');
+INSERT INTO "BN"."node" VALUES ('63', 'XianZhiGuoZai', '5', 'Da,Xiao', '0.53061223,0.46938777,0.62745094,0.37254906');
+INSERT INTO "BN"."node" VALUES ('64', 'TuiZHongBi', '5', 'Da,Xiao', '0.5102041,0.48979592,0.43137258,0.5686274');
+INSERT INTO "BN"."node" VALUES ('65', 'WuQiPingTai', '6', 'Qiang,Ruo', '0.65999997,0.34000006');
+INSERT INTO "BN"."node" VALUES ('66', 'WuQiGuaDianGeShu', '6', 'Duo,Shao', '0.57575756,0.42424244,0.4411765,0.5588235');
+INSERT INTO "BN"."node" VALUES ('67', 'GuoZaiHeDanNengLi', '6', 'T,F', '0.6212121,0.3787879,0.6470587,0.35294124');
+INSERT INTO "BN"."node" VALUES ('68', 'ZaiDanLiang', '6', 'Duo,Shao', '0.5,0.5,0.47058824,0.52941173');
+INSERT INTO "BN"."node" VALUES ('69', 'ZuoZhanGaoDu', '6', 'Gao,Di', '0.3939394,0.60606056,0.617647,0.382353');
+INSERT INTO "BN"."node" VALUES ('70', 'ZuiDaYouXiaoSheCheng', '6', 'Da,Xiao', '0.5151515,0.4848485,0.6764705,0.3235295');
+INSERT INTO "BN"."node" VALUES ('71', 'MuBiaoShuXing', '7', 'Qiang,Ruo', '0.48000002,0.52');
+INSERT INTO "BN"."node" VALUES ('73', 'QiFeiJiChang', '7', 'a0,a1', '0.43750003,0.5625,0.6153846,0.38461542');
+INSERT INTO "BN"."node" VALUES ('75', 'FeiXingHangXian', '8', 'GaoWeiXie,DiWeiXie', '0.57,0.43');
+INSERT INTO "BN"."node" VALUES ('76', 'BianJIngHaiAn', '8', 'Yuan,Jin', '0.36842108,0.6315789,0.6046511,0.39534888');
+INSERT INTO "BN"."node" VALUES ('78', 'WeiXieDengJi', '9', 'Level1,Level2,Level3,Level4,Level5', '0.25999996,0.21999998,0.2,0.16000003,0.16000003');
+INSERT INTO "BN"."node" VALUES ('80', 'WuLiTeXing', '9', 'Qiang,Ruo', '0.576923,0.423077,0.4545455,0.5454545,0.5,0.5,0.5,0.5,0.5,0.5');
+INSERT INTO "BN"."node" VALUES ('83', 'FeiXingHangXian', '9', 'GaoWeiXie,DiWeiXie', '0.34615394,0.653846,0.6363635,0.3636365,0.5999999,0.4000001,0.7499997,0.25000033,0.6249998,0.37500018');
+INSERT INTO "BN"."node" VALUES ('84', 'WuLiTeXing', '10', 'Qiang,Ruo', '0.43,0.57');
+INSERT INTO "BN"."node" VALUES ('85', 'JiDongNengLi', '10', 'Qiang,Ruo', '0.30232567,0.69767433,0.45614037,0.54385966');
+INSERT INTO "BN"."node" VALUES ('87', 'ZuiDaQiFeiZhongLiang', '10', 'Da,Xiao', '0.65116274,0.3488373,0.49122807,0.50877196');
+INSERT INTO "BN"."node" VALUES ('88', 'ZuoZhanBanJing', '10', 'Yuan,Jin', '0.5813953,0.4186047,0.5263158,0.47368422');
+INSERT INTO "BN"."node" VALUES ('90', 'XunHangSuDu', '10', 'Kuai,Man', '0.4418605,0.5581395,0.5614035,0.4385965');
+INSERT INTO "BN"."node" VALUES ('92', 'RCS', '10', 'Da,Xiao', '0.4883721,0.5116279,0.49122807,0.50877196');
+INSERT INTO "BN"."node" VALUES ('93', 'KongZhongJiaYouNengLi', '10', 'T,F', '0.4883721,0.5116279,0.54385966,0.45614037');
+INSERT INTO "BN"."node" VALUES ('95', 'TuiZHongBi', '10', 'Da,Xiao', '0.58974355,0.41025645,0.36065578,0.6393442');
+INSERT INTO "BN"."node" VALUES ('97', 'WuQiPingTai', '11', 'Qiang,Ruo', '0.46,0.53999996');
+INSERT INTO "BN"."node" VALUES ('98', 'JiZaiLeiDaZuoYongJuLi', '11', 'Chang,Duan', '0.5869565,0.41304353,0.4814815,0.5185185');
+INSERT INTO "BN"."node" VALUES ('100', 'ZaiDanLiang', '11', 'Duo,Shao', '0.5217391,0.47826087,0.44444448,0.5555555');
+INSERT INTO "BN"."node" VALUES ('101', 'ZuoZhanGaoDu', '11', 'Gao,Di', '0.5217391,0.47826087,0.5185185,0.4814815');
+INSERT INTO "BN"."node" VALUES ('103', 'MuBiaoShuXing', '12', 'Qiang,Ruo', '0.59999996,0.40000004');
+INSERT INTO "BN"."node" VALUES ('104', 'GuoJiaDiQu', '12', 'c0,c1', '0.45,0.55,0.22500013,0.77499986');
+INSERT INTO "BN"."node" VALUES ('105', 'QiFeiJiChang', '12', 'a0,a1', '0.59999996,0.4,0.525,0.47500002');
+INSERT INTO "BN"."node" VALUES ('107', 'FeiXingHangXian', '13', 'GaoWeiXie,DiWeiXie', '0.61999995,0.38000003');
+INSERT INTO "BN"."node" VALUES ('108', 'GaoDu', '13', 'Gao,Di', '0.43548387,0.5645161,0.63157886,0.3684211');
+INSERT INTO "BN"."node" VALUES ('110', 'SuDu', '13', 'Kuai,Man', '0.516129,0.48387095,0.55263156,0.44736844');
+INSERT INTO "BN"."node" VALUES ('112', 'WeiXieDengJi', '14', 'Level1,Level2,Level3,Level4,Level5', '0.16000003,0.14000003,0.26999998,0.22999999,0.2');
+INSERT INTO "BN"."node" VALUES ('115', 'MuBiaoShuXing', '14', 'Qiang,Ruo', '0.5,0.5,0.64285696,0.35714307,0.62962955,0.37037045,0.60869557,0.39130443,0.5999999,0.4000001');
+INSERT INTO "BN"."node" VALUES ('116', 'WuQiPingTai', '14', 'Qiang,Ruo', '0.5,0.5,0.5,0.5,0.44444448,0.5555555,0.26086977,0.7391302,0.64999986,0.35000017');
+INSERT INTO "BN"."node" VALUES ('117', 'FeiXingHangXian', '14', 'GaoWeiXie,DiWeiXie', '0.68749976,0.31250024,0.7142854,0.2857146,0.62962955,0.37037045,0.60869557,0.39130443,0.5,0.5');
+INSERT INTO "BN"."node" VALUES ('99', 'WuQiGuaDianGeShu', '11', 'Duo,Shao', '0.5652174,0.43478262,0.6111111,0.38888893');
+INSERT INTO "BN"."node" VALUES ('102', 'ZuiDaFaSheJuLi', '11', 'Da,Xiao', '0.5869565,0.41304353,0.38888893,0.6111111');
+INSERT INTO "BN"."node" VALUES ('106', 'JiXing', '12', 'F16,F22', '0.46666667,0.53333336,0.62499994,0.37500006');
+INSERT INTO "BN"."node" VALUES ('109', 'FangKongShiBieQu', '13', 'Yuan,Jin', '0.5322581,0.46774194,0.44736844,0.55263156');
+INSERT INTO "BN"."node" VALUES ('111', 'HangXiang', '13', 'KaoJin,YuanLi', '0.46774194,0.5322581,0.42105266,0.5789473');
+INSERT INTO "BN"."node" VALUES ('113', 'RenWuShuXing', '14', 'YanXun,ZhenCha,ZhuanChang', '0.31250003,0.4374998,0.25000015,0.3571428,0.57142806,0.07142913,0.4814813,0.18518536,0.3333333,0.34782606,0.26086968,0.39130425,0.30000007,0.15000027,0.54999965');
+INSERT INTO "BN"."node" VALUES ('114', 'WuLiTeXing', '14', 'Qiang,Ruo', '0.4375001,0.5624999,0.42857155,0.5714285,0.44444448,0.5555555,0.47826087,0.5217391,0.35000017,0.64999986');
+
+-- ----------------------------
+-- Table structure for relationship
+-- ----------------------------
+DROP TABLE "BN"."relationship";
+CREATE TABLE "BN"."relationship" (
+  "from" NUMBER NOT NULL,
+  "to" NUMBER NOT NULL
+)
+LOGGING
+NOCOMPRESS
+PCTFREE 10
+INITRANS 1
+STORAGE (
+  INITIAL 65536 
+  NEXT 1048576 
+  MINEXTENTS 1
+  MAXEXTENTS 2147483645
+  BUFFER_POOL DEFAULT
+)
+PARALLEL 1
+NOCACHE
+DISABLE ROW MOVEMENT
+;
+
+-- ----------------------------
+-- Records of relationship
+-- ----------------------------
+INSERT INTO "BN"."relationship" VALUES ('0', '1');
+INSERT INTO "BN"."relationship" VALUES ('0', '2');
+INSERT INTO "BN"."relationship" VALUES ('0', '3');
+INSERT INTO "BN"."relationship" VALUES ('0', '4');
+INSERT INTO "BN"."relationship" VALUES ('0', '5');
+INSERT INTO "BN"."relationship" VALUES ('0', '6');
+INSERT INTO "BN"."relationship" VALUES ('0', '7');
+INSERT INTO "BN"."relationship" VALUES ('0', '8');
+INSERT INTO "BN"."relationship" VALUES ('0', '9');
+INSERT INTO "BN"."relationship" VALUES ('7', '10');
+INSERT INTO "BN"."relationship" VALUES ('7', '11');
+INSERT INTO "BN"."relationship" VALUES ('7', '12');
+INSERT INTO "BN"."relationship" VALUES ('13', '14');
+INSERT INTO "BN"."relationship" VALUES ('13', '15');
+INSERT INTO "BN"."relationship" VALUES ('13', '16');
+INSERT INTO "BN"."relationship" VALUES ('13', '17');
+INSERT INTO "BN"."relationship" VALUES ('13', '18');
+INSERT INTO "BN"."relationship" VALUES ('14', '19');
+INSERT INTO "BN"."relationship" VALUES ('14', '20');
+INSERT INTO "BN"."relationship" VALUES ('14', '21');
+INSERT INTO "BN"."relationship" VALUES ('14', '22');
+INSERT INTO "BN"."relationship" VALUES ('15', '23');
+INSERT INTO "BN"."relationship" VALUES ('15', '24');
+INSERT INTO "BN"."relationship" VALUES ('15', '25');
+INSERT INTO "BN"."relationship" VALUES ('15', '26');
+INSERT INTO "BN"."relationship" VALUES ('16', '27');
+INSERT INTO "BN"."relationship" VALUES ('16', '28');
+INSERT INTO "BN"."relationship" VALUES ('16', '29');
+INSERT INTO "BN"."relationship" VALUES ('16', '30');
+INSERT INTO "BN"."relationship" VALUES ('17', '31');
+INSERT INTO "BN"."relationship" VALUES ('17', '32');
+INSERT INTO "BN"."relationship" VALUES ('17', '33');
+INSERT INTO "BN"."relationship" VALUES ('17', '34');
+INSERT INTO "BN"."relationship" VALUES ('18', '35');
+INSERT INTO "BN"."relationship" VALUES ('18', '36');
+INSERT INTO "BN"."relationship" VALUES ('18', '37');
+INSERT INTO "BN"."relationship" VALUES ('18', '38');
+INSERT INTO "BN"."relationship" VALUES ('39', '40');
+INSERT INTO "BN"."relationship" VALUES ('39', '41');
+INSERT INTO "BN"."relationship" VALUES ('39', '42');
+INSERT INTO "BN"."relationship" VALUES ('43', '44');
+INSERT INTO "BN"."relationship" VALUES ('43', '45');
+INSERT INTO "BN"."relationship" VALUES ('46', '47');
+INSERT INTO "BN"."relationship" VALUES ('46', '48');
+INSERT INTO "BN"."relationship" VALUES ('46', '49');
+INSERT INTO "BN"."relationship" VALUES ('46', '50');
+INSERT INTO "BN"."relationship" VALUES ('46', '51');
+INSERT INTO "BN"."relationship" VALUES ('52', '53');
+INSERT INTO "BN"."relationship" VALUES ('52', '54');
+INSERT INTO "BN"."relationship" VALUES ('52', '55');
+INSERT INTO "BN"."relationship" VALUES ('52', '56');
+INSERT INTO "BN"."relationship" VALUES ('52', '57');
+INSERT INTO "BN"."relationship" VALUES ('52', '58');
+INSERT INTO "BN"."relationship" VALUES ('52', '59');
+INSERT INTO "BN"."relationship" VALUES ('52', '60');
+INSERT INTO "BN"."relationship" VALUES ('52', '61');
+INSERT INTO "BN"."relationship" VALUES ('59', '62');
+INSERT INTO "BN"."relationship" VALUES ('59', '63');
+INSERT INTO "BN"."relationship" VALUES ('59', '64');
+INSERT INTO "BN"."relationship" VALUES ('65', '66');
+INSERT INTO "BN"."relationship" VALUES ('65', '67');
+INSERT INTO "BN"."relationship" VALUES ('65', '68');
+INSERT INTO "BN"."relationship" VALUES ('65', '69');
+INSERT INTO "BN"."relationship" VALUES ('65', '70');
+INSERT INTO "BN"."relationship" VALUES ('71', '72');
+INSERT INTO "BN"."relationship" VALUES ('71', '73');
+INSERT INTO "BN"."relationship" VALUES ('71', '74');
+INSERT INTO "BN"."relationship" VALUES ('75', '76');
+INSERT INTO "BN"."relationship" VALUES ('75', '77');
+INSERT INTO "BN"."relationship" VALUES ('78', '79');
+INSERT INTO "BN"."relationship" VALUES ('78', '80');
+INSERT INTO "BN"."relationship" VALUES ('78', '81');
+INSERT INTO "BN"."relationship" VALUES ('78', '82');
+INSERT INTO "BN"."relationship" VALUES ('78', '83');
+INSERT INTO "BN"."relationship" VALUES ('84', '85');
+INSERT INTO "BN"."relationship" VALUES ('84', '86');
+INSERT INTO "BN"."relationship" VALUES ('84', '87');
+INSERT INTO "BN"."relationship" VALUES ('84', '88');
+INSERT INTO "BN"."relationship" VALUES ('84', '89');
+INSERT INTO "BN"."relationship" VALUES ('84', '90');
+INSERT INTO "BN"."relationship" VALUES ('84', '91');
+INSERT INTO "BN"."relationship" VALUES ('84', '92');
+INSERT INTO "BN"."relationship" VALUES ('84', '93');
+INSERT INTO "BN"."relationship" VALUES ('85', '94');
+INSERT INTO "BN"."relationship" VALUES ('85', '95');
+INSERT INTO "BN"."relationship" VALUES ('85', '96');
+INSERT INTO "BN"."relationship" VALUES ('97', '98');
+INSERT INTO "BN"."relationship" VALUES ('97', '99');
+INSERT INTO "BN"."relationship" VALUES ('97', '100');
+INSERT INTO "BN"."relationship" VALUES ('97', '101');
+INSERT INTO "BN"."relationship" VALUES ('97', '102');
+INSERT INTO "BN"."relationship" VALUES ('103', '104');
+INSERT INTO "BN"."relationship" VALUES ('103', '105');
+INSERT INTO "BN"."relationship" VALUES ('103', '106');
+INSERT INTO "BN"."relationship" VALUES ('107', '108');
+INSERT INTO "BN"."relationship" VALUES ('107', '109');
+INSERT INTO "BN"."relationship" VALUES ('107', '110');
+INSERT INTO "BN"."relationship" VALUES ('107', '111');
+INSERT INTO "BN"."relationship" VALUES ('112', '113');
+INSERT INTO "BN"."relationship" VALUES ('112', '114');
+INSERT INTO "BN"."relationship" VALUES ('112', '115');
+INSERT INTO "BN"."relationship" VALUES ('112', '116');
+INSERT INTO "BN"."relationship" VALUES ('112', '117');
+
+-- ----------------------------
+-- Checks structure for table node
+-- ----------------------------
+ALTER TABLE "BN"."node" ADD CONSTRAINT "SYS_C0011054" CHECK ("id" IS NOT NULL) NOT DEFERRABLE INITIALLY IMMEDIATE NORELY VALIDATE;
+ALTER TABLE "BN"."node" ADD CONSTRAINT "SYS_C0011055" CHECK ("name" IS NOT NULL) NOT DEFERRABLE INITIALLY IMMEDIATE NORELY VALIDATE;
+ALTER TABLE "BN"."node" ADD CONSTRAINT "SYS_C0011056" CHECK ("type" IS NOT NULL) NOT DEFERRABLE INITIALLY IMMEDIATE NORELY VALIDATE;
+ALTER TABLE "BN"."node" ADD CONSTRAINT "SYS_C0011106" CHECK ("state" IS NOT NULL) NOT DEFERRABLE INITIALLY IMMEDIATE NORELY VALIDATE;
+ALTER TABLE "BN"."node" ADD CONSTRAINT "SYS_C0011219" CHECK ("id" IS NOT NULL) NOT DEFERRABLE INITIALLY IMMEDIATE NORELY VALIDATE;
+ALTER TABLE "BN"."node" ADD CONSTRAINT "SYS_C0011220" CHECK ("name" IS NOT NULL) NOT DEFERRABLE INITIALLY IMMEDIATE NORELY VALIDATE;
+ALTER TABLE "BN"."node" ADD CONSTRAINT "SYS_C0011221" CHECK ("type" IS NOT NULL) NOT DEFERRABLE INITIALLY IMMEDIATE NORELY VALIDATE;
+ALTER TABLE "BN"."node" ADD CONSTRAINT "SYS_C0011222" CHECK ("state" IS NOT NULL) NOT DEFERRABLE INITIALLY IMMEDIATE NORELY VALIDATE;
+ALTER TABLE "BN"."node" ADD CONSTRAINT "SYS_C0011236" CHECK ("id" IS NOT NULL) NOT DEFERRABLE INITIALLY IMMEDIATE NORELY VALIDATE;
+ALTER TABLE "BN"."node" ADD CONSTRAINT "SYS_C0011237" CHECK ("name" IS NOT NULL) NOT DEFERRABLE INITIALLY IMMEDIATE NORELY VALIDATE;
+ALTER TABLE "BN"."node" ADD CONSTRAINT "SYS_C0011238" CHECK ("type" IS NOT NULL) NOT DEFERRABLE INITIALLY IMMEDIATE NORELY VALIDATE;
+ALTER TABLE "BN"."node" ADD CONSTRAINT "SYS_C0011239" CHECK ("state" IS NOT NULL) NOT DEFERRABLE INITIALLY IMMEDIATE NORELY VALIDATE;
+
+-- ----------------------------
+-- Checks structure for table relationship
+-- ----------------------------
+ALTER TABLE "BN"."relationship" ADD CONSTRAINT "SYS_C0011058" CHECK ("from" IS NOT NULL) NOT DEFERRABLE INITIALLY IMMEDIATE NORELY VALIDATE;
+ALTER TABLE "BN"."relationship" ADD CONSTRAINT "SYS_C0011059" CHECK ("to" IS NOT NULL) NOT DEFERRABLE INITIALLY IMMEDIATE NORELY VALIDATE;
+ALTER TABLE "BN"."relationship" ADD CONSTRAINT "SYS_C0011223" CHECK ("from" IS NOT NULL) NOT DEFERRABLE INITIALLY IMMEDIATE NORELY VALIDATE;
+ALTER TABLE "BN"."relationship" ADD CONSTRAINT "SYS_C0011224" CHECK ("to" IS NOT NULL) NOT DEFERRABLE INITIALLY IMMEDIATE NORELY VALIDATE;
