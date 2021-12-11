@@ -1,0 +1,1907 @@
+<?xml version="1.0"?>
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://www.hsxn_kg.com#AI2024 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#AI2024">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#Johnson-Cook材料模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#AI203-AD995 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#AI203-AD995">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#陶瓷类JHC本构模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#AIN -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#AIN">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#陶瓷类JHC本构模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#AL2024-T4 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#AL2024-T4">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#Steinberg材料模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#ARMCO-IRON -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#ARMCO-IRON">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#Johnson-Cook材料模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#B炸药 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#B炸药">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#炸药装药"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#CART_BRASS -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#CART_BRASS">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#Johnson-Cook材料模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#Copper -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#Copper">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#Steinberg材料模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#C形药包 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#C形药包">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#药包"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#DU_75TI -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#DU_75TI">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#Johnson-Cook材料模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#Gold -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#Gold">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#Steinberg材料模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#Johnson-Cook材料模型 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#Johnson-Cook材料模型">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#材料模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#Mie-Gruneisen状态方程 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#Mie-Gruneisen状态方程">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#材料"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#Nickel -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#Nickel">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#Steinberg材料模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#Pt -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#Pt">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规材料"/>
+        <rdfs:comment>铂</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#RF04 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#RF04">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#流体弹塑性材料模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#RF05 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#RF05">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#流体弹塑性材料模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#RHA -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#RHA">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#塑性动态硬化材料模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#Rad588 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#Rad588">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规材料"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#Re -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#Re">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规材料"/>
+        <rdfs:comment>铼</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#Rh -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#Rh">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规材料"/>
+        <rdfs:comment>铑</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#S-7STEEL -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#S-7STEEL">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#Mie-Gruneisen状态方程"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#SILI -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#SILI">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#Mie-Gruneisen状态方程"/>
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#流体弹塑性材料模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#SOIL -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#SOIL">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#塑性动态硬化材料模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#Sb -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#Sb">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规材料"/>
+        <rdfs:comment>锑</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#Series124Resin -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#Series124Resin">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规材料"/>
+        <rdfs:comment>环氧树脂</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#Sie -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#Sie">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规材料"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#Sn -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#Sn">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规材料"/>
+        <rdfs:comment>锡</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#Stainless_Stl_304 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#Stainless_Stl_304">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规材料"/>
+        <rdfs:comment>304不锈钢</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#Steel1006 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#Steel1006">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#Mie-Gruneisen状态方程"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#Steel4340 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#Steel4340">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#Mie-Gruneisen状态方程"/>
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#Steinberg材料模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#Steinberg材料模型 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#Steinberg材料模型">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#材料模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#TUNGALLOY -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#TUNGALLOY">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#Steinberg材料模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#Ta -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#Ta">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#Steinberg材料模型"/>
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规材料"/>
+        <rdfs:comment>钽</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#Th -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#Th">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规材料"/>
+        <rdfs:comment>钍</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#Tl -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#Tl">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规材料"/>
+        <rdfs:comment>铊</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#U3.0Mo -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#U3.0Mo">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规材料"/>
+        <rdfs:comment>钼</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#W -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#W">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#塑性动态硬化材料模型"/>
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规材料"/>
+        <rdfs:comment>钨</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#W-7.5Ni-2.5Cu -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#W-7.5Ni-2.5Cu">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规材料"/>
+        <rdfs:comment>镍和铜</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#WALLOY -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#WALLOY">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#塑性动态硬化材料模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#Water -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#Water">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#Steinberg材料模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#concrete30 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#concrete30">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#混凝土材料JHC本构模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#concrete48 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#concrete48">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#混凝土材料JHC本构模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#上定心部 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#上定心部">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#定心部"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#下定心部 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#下定心部">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#定心部"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#中心管 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#中心管">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#特种弹药部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#传爆管 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#传爆管">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#爆管"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#位置 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#位置">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#地理环境"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#保险 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#保险">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#弹药其它零部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#保险杆 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#保险杆">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#雷体零部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#其它稳定装置 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#其它稳定装置">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#稳定装置"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#出手保险 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#出手保险">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#保险"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#击发机构 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#击发机构">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#雷体零部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#分离装置 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#分离装置">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规部件"/>
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#母弹零部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#分装式药筒 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#分装式药筒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#药筒"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#切割网栅 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#切割网栅">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#弹药其它零部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#前托 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#前托">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹托"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#前抛反装甲子母弹头螺 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#前抛反装甲子母弹头螺">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#头螺"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#勤务保险 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#勤务保险">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#保险"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#压电引信 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#压电引信">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#引信"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#双碟形药型罩 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#双碟形药型罩">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#药型罩"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#发动机壳体 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#发动机壳体">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#火箭发动机"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#发烟剂 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#发烟剂">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#吊伞照明炬系统"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#可燃容器 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#可燃容器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发射装药辅助元件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#吊伞 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#吊伞">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#吊伞照明炬系统"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#吊伞照明炬系统 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#吊伞照明炬系统">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#特种弹药部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#后托 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#后托">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹托"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#喷管 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#喷管">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#火箭发动机"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#圆柱部 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#圆柱部">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹体"/>
+        <rdfs:comment>与弹头部相连接的圆柱形弹丸部分，通常为上定心部至弹带之间的部分</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#地物 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#地物">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#地理环境"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#地理环境 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#地理环境">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#射击环境"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#地貌 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#地貌">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#地理环境"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#地面大气环境 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#地面大气环境">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#射击环境"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#塑性动态硬化材料模型 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#塑性动态硬化材料模型">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#材料模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#塑料弹带 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#塑料弹带">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#弹带"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#壳体 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#壳体">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹体"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹丸"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#大气盐雾浓度 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#大气盐雾浓度">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#地面大气环境"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#天气 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#天气">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#地理环境"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#失手保险 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#失手保险">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#保险"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#子弹 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#子弹">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#母弹零部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#子弹收集器 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#子弹收集器">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#尾管"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#季节 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#季节">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#地理环境"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#安定器 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#安定器">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#定心块 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#定心块">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#定心部 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#定心部">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#圆柱部"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#定装式药筒 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#定装式药筒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#药筒"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#宣传品 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#宣传品">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#特种弹药部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#宣传纸包皮 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#宣传纸包皮">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#特种弹药部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#密封盖 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#密封盖">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发射装药辅助元件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#导引部 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#导引部">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#定心部"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#导爆管 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#导爆管">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#爆管"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#射击环境 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#射击环境">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#环境"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#尼龙弹带 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#尼龙弹带">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#弹带"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#尾管 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#尾管">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#其它稳定装置"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#尾翅 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#尾翅">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#其它稳定装置"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#尾翼座 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#尾翼座">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#尾翼稳定装置"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#尾翼稳定装置 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#尾翼稳定装置">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#稳定装置"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#常规材料 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#常规材料">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#材料"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#常规部件 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#常规部件">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#弹丸零部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#引燃剂 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#引燃剂">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#特种弹药部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#弹丸零部件 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#弹丸零部件">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹丸"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#弹头壳 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#弹头壳">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹头部"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#弹头帽 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#弹头帽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹头部"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#弹尾部 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#弹尾部">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹体"/>
+        <rdfs:comment>船尾部，弹尾部是圆柱部以下的弹丸部分，通常由尾柱部和尾锥部结合而成</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#弹带 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#弹带">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#圆柱部"/>
+        <rdfs:comment>弹带（导带）</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#弹杆 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#弹杆">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#弹芯 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#弹芯">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#圆柱部"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#弹药其它零部件 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#弹药其它零部件">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹药结构"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#扩爆管 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#扩爆管">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#爆管"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#抛射系统 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#抛射系统">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#母弹零部件"/>
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#特种弹药部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#抛射药盒 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#抛射药盒">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#弹药其它零部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#挡药板 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#挡药板">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#火箭发动机"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#排气装置"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#推力板 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#推力板">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#弹药其它零部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#推进剂 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#推进剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#炸药装药"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#支承筒 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#支承筒">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#弹药其它零部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#支撑弹带 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#支撑弹带">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#弹带"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#旋压药型罩 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#旋压药型罩">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#药型罩"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#旋转稳定装置 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#旋转稳定装置">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#稳定装置"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#时间引信 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#时间引信">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#母弹零部件"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#引信"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#曳光剂 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#曳光剂">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#吊伞照明炬系统"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#曳光管 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#曳光管">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#弹尾部"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#机械引信 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#机械引信">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#引信"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#材料 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#材料"/>
+
+
+
+    <!-- http://www.hsxn_kg.com#材料模型 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#材料模型">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#材料"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#条带形药包 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#条带形药包">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#药包"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#梯恩梯 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#梯恩梯">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#炸药装药"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#橡胶圈 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#橡胶圈">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#尾管"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#母弹零部件 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#母弹零部件">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#弹丸零部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#气压 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#气压">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#地面大气环境"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#流体弹塑性材料模型 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#流体弹塑性材料模型">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#材料模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#浮化玻璃 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#浮化玻璃">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#陶瓷类JHC本构模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#海拔 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#海拔">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#地理环境"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#混凝土材料JHC本构模型 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#混凝土材料JHC本构模型">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#材料模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#温度 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#温度">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#地面大气环境"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#火箭发动机 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#火箭发动机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹药结构"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#火箭推进剂 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#火箭推进剂">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#火箭发动机"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#点传火管 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#点传火管">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发射装药"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#点火具 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#点火具">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规部件"/>
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#火箭发动机"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#点火装置 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#点火装置">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#火箭发动机"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#烟幕剂 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#烟幕剂">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#吊伞照明炬系统"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#照明剂 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#照明剂">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#吊伞照明炬系统"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#照明炬 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#照明炬">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#吊伞照明炬系统"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#燃料空气炸药 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#燃料空气炸药">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#炸药装药"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#燃烧剂 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#燃烧剂">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#吊伞照明炬系统"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#燃烧室 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#燃烧室">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#火箭发动机"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#排气装置壳体"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#燃烧弹头螺 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#燃烧弹头螺">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#头螺"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#燃烧炬 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#燃烧炬">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#特种弹药部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#特种弹药部件 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#特种弹药部件">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#弹丸零部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#特种装填剂 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#特种装填剂">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#雷体零部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#猛炸药 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#猛炸药">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#炸药装药"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#环境 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#环境"/>
+
+
+
+    <!-- http://www.hsxn_kg.com#环带形药包 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#环带形药包">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#药包"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#环形药包 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#环形药包">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#药包"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#相对湿度 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#相对湿度">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#地面大气环境"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#破甲弹头螺 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#破甲弹头螺">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#头螺"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#碳化钨弹芯 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#碳化钨弹芯">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#弹芯"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#稳定装置 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#稳定装置">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#弹尾部"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#线性药型罩 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#线性药型罩">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#药型罩"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#缓冲器 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#缓冲器">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#尾管"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#缓冲气囊 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#缓冲气囊">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#弹药其它零部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#缓蚀剂 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#缓蚀剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发射装药辅助元件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#能见度 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#能见度">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#地面大气环境"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#药包 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#药包">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发射装药"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#药型罩 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#药型罩">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#弹药其它零部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#药室 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#药室">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发射装药"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#薄壁弹体 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#薄壁弹体">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#母弹零部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#螺纹 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#螺纹">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#弹药其它零部件"/>
+        <rdfs:comment>作为连接部件，常用</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#衬筒 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#衬筒">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#弹药其它零部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#被帽 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#被帽">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#触发引信 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#触发引信">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#引信"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#起爆管 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#起爆管">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#爆管"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#起爆药 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#起爆药">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#炸药装药"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#起爆装置 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#起爆装置">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#弹药其它零部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#转动轴承 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#转动轴承">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#吊伞照明炬系统"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#过渡药 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#过渡药">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#特种弹药部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#近炸引信 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#近炸引信">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#引信"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#金属药型罩 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#金属药型罩">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#药型罩"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#钝黑铝炸药 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#钝黑铝炸药">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#炸药装药"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#钢芯 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#钢芯">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹头部"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#钨合金弹芯 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#钨合金弹芯">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#弹芯"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#铅芯 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#铅芯">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹头部"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#销轴 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#销轴">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#尾翼稳定装置"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#错位式抗旋药型罩 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#错位式抗旋药型罩">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#药型罩"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#闭气环 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#闭气环">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#圆柱部"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#陶瓷类JHC本构模型 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#陶瓷类JHC本构模型">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#材料模型"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#隔板 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#隔板">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#弹药其它零部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#雨量 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#雨量">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#地面大气环境"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#雷体零部件 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#雷体零部件">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#弹丸零部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#雷壳 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#雷壳">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#雷体零部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#雷翅 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#雷翅">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#雷体零部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#风向 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#风向">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#地面大气环境"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#风速 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#风速">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#地面大气环境"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hsxn_kg.com#飞行保险 -->
+
+    <owl:Class rdf:about="http://www.hsxn_kg.com#飞行保险">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#保险"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#传火药 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#传火药">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发射装药辅助元件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#化学毒剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#化学毒剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#装填物"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#压螺 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#压螺">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#底火"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发射药 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发射药">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发射装药"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发射装药 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发射装药">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹药结构"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发射装药辅助元件 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发射装药辅助元件">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发射装药"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发火砧 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发火砧">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#底火"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#头螺 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#头螺">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#底凹 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#底凹">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#底火 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#底火">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发射装药"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#底火体 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#底火体">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#底火"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#底螺 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#底螺">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#引信 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#引信">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹丸"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹丸 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹丸">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹药结构"/>
+        <rdfs:comment>战斗部</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹体 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹体">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹丸"/>
+        <rdfs:comment>弹体，也叫壳体</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹头部 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹头部">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹体"/>
+        <rdfs:comment>弹头部是弹顶以下的弧形、台锥或两者结合的弹丸部分，为不同形状母线的回转体</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹托 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹托">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹药结构 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹药结构"/>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#护膛剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#护膛剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发射装药辅助元件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#排气孔 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#排气孔">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#排气装置壳体"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#排气药柱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#排气药柱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#排气装置"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#排气装置 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#排气装置">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#弹尾部"/>
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#母弹零部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#排气装置壳体 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#排气装置壳体">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#排气装置"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#核装药 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#核装药">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#装填物"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#消焰剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#消焰剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发射装药辅助元件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#火帽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#火帽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#底火"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#火帽座 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#火帽座">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#底火"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#炸药装药 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#炸药装药">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#雷体零部件"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#装填物"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#点火器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#点火器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#排气装置"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#点火药 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#点火药">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发射装药辅助元件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#爆管 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#爆管">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#生物战剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#生物战剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#装填物"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#紧塞盖 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#紧塞盖">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发射装药辅助元件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#药筒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#药筒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发射装药"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#装填物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#装填物">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#弹丸"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#闭气塞 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#闭气塞">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#底火"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#防潮盖 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#防潮盖">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发射装药辅助元件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#除铜剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#除铜剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#发射装药辅助元件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#风帽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#风帽">
+        <rdfs:subClassOf rdf:resource="http://www.hsxn_kg.com#常规部件"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#黑火药 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#黑火药">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/6/untitled-ontology-25#底火"/>
+    </owl:Class>
+
+
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

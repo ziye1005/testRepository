@@ -1,0 +1,246 @@
+Underground target
+Ground targets
+Underwater target
+The surface target
+Air targets
+Half underground target
+Underground civil air defense project
+silo
+Underground plants
+Underground command post
+Underground bunker
+Underground structure
+The tunnel
+shelters
+Other supporting engineering
+Medical engineering
+Command and communication engineering
+Air defense team project
+Military facilities
+Military vehicles
+Ground equipment
+tanks
+fortifications
+The transportation
+plant
+Military warehouse
+Military water pipe
+Military oil pipeline
+Military power transmission lines
+Military communication lines
+depot
+Frontier command post
+site
+ammunition
+Oil refineries
+Observatory,
+Communication hub
+Radar station
+Military road
+Logistics lines
+bridge
+main
+Railway private sidings
+pass
+Mining area
+Car field
+port
+shelters
+The rockets position
+Artillery positions
+terminal
+The camp
+training
+Proving ground
+At the airport
+Fighting vehicle
+Tow truck
+Special vehicle
+Frontier command vehicle
+Frontier communications vehicle
+Anti-tank missiles
+Tactical missile car
+Armored vehicles
+Tow truck
+Dig a trench car
+The ambulance
+Agent decontamination vehicle
+The field kitchen
+Photoelectric equipment
+Technology and equipment
+Laser equipment
+The grid
+Observation observation equipment
+Near infrared equipment
+Communication system
+Amphibious aircraft
+Aquatic seaplane
+Buoy the plane
+The airship
+The supply ships
+Surveillance ship
+Repair ship
+Military carrier
+Base service craft
+Engineering ship
+Oceanographic vessel
+Hydrographic vessel
+Degaussing ship
+icebreaker
+Beacon vessel
+The training ship
+Test the ship
+Communications ship
+Emergency rescue boats
+Amphibious ships
+Mine ships
+The missile ship
+cruiser
+minelayer
+The battleship
+The frigate
+Destroyer escort
+Hunting ship,
+ships
+The aircraft carrier
+The destroyer
+The torpedo ship
+The ground effect aircraft
+Wing effect machine
+Amphibious aircraft
+Spy plane
+Military transport plane
+Antisubmarine plane
+Strike aircraft
+Battlefield surveillance machine
+fighter
+fighter-bomber
+attack
+The trainer
+Unmanned aircraft
+fighters
+fighter-bomber
+seaplane
+Special combat aircraft
+Electronic countermeasure aircraft
+The helicopter
+tanker
+Space fighter
+Empty days bombers
+Testing machine
+The bomber
+Awacs...
+Tactical reconnaissance aircraft
+Strategic reconnaissance aircraft
+Anti-submarine helicopter
+Shore-based anti-submarine aircraft
+Aquatic antisubmarine aircraft
+Ship-borne antisubmarine plane
+Anti radar aircraft
+Electronic reconnaissance aircraft
+Electronic jamming aircraft
+Anti-submarine helicopter
+Utility helicopters
+Attack helicopters
+The armed helicopter
+Transport helicopter
+Half a confined space
+silo
+Underground plants
+Underground command post
+Underground bunker
+Underwater missile launch platform
+Underground structure
+Personnel goal
+animal
+The simulation objects
+Photoelectric equipment
+Technology and equipment
+Laser equipment
+The grid
+Observation observation equipment
+Near infrared equipment
+Communication system
+radar
+Ground equipment
+Medium-sized submarines
+Large submarine
+Small submarine
+Pocket submarines
+Unmanned submarine float and sink type
+Intelligent unmanned submarine
+Remote control type submarine unmanned submarine
+One and a half shell submarine
+Single shell submarine
+Double shell submarine
+The naval gun
+Air cannon
+The army artillery
+The coast and fortress gun
+The shipboard gun
+The airborne gun
+Anti-tank artillery
+The ground suppression
+Anti-aircraft guns
+Anti-tank guns
+Tank guns
+No gun recoil
+JiaNongLiu errors
+The cannon
+howitzers
+rockets
+The mortar
+The yugoslav capital gun
+Field guns
+Half a confined space
+earthworks
+Military facilities
+Ground equipment
+flammable
+Exercise target
+Armor target
+main
+Light firearms
+diesel
+kerosene
+Natural vegetation
+clothing
+Hay field
+The ground thin armor target
+The water thin armor target
+Armored security vehicle side armor
+Armored car
+Lightly armored target
+Infantry fighting vehicles
+Armored carrier
+Light the SBS
+Light boat
+Functional goals
+Vehicle and armored targets
+Mining area
+The battle of firearms
+shelters
+tanks
+"When a reaction armored targets
+Infantry fighting vehicles
+Fire facilities
+Armored vehicles
+Group goals
+Military oil pipeline
+plant
+Military water pipe
+depot
+Military road
+Logistics lines
+Military power transmission lines
+Military communication lines
+Military warehouse
+ammunition
+Effective strength class goal
+Oil refineries
+main
+Observatory,
+Communication hub
+Railway private sidings
+pass
+Radar station

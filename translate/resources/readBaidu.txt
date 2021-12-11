@@ -1,0 +1,20 @@
+Personalized recommendation technology is one of the
+effective tools to solve the problems of "information
+overload" currently. It is through the use of "userinformation",
+a dual relationship directly to provide
+personalized recommendation services, which is based on the
+existing browse history, hobbies and interests or the
+similarity between users. All these in essence are the
+methods of information filtering.
+Personalized recommendation technology was put
+forward in the 1990s and has been widely used in recent
+years. Because of its high efficiency in information retrieval
+and information extraction, this technology has been used
+fruitfully in academic and business fields. Many famous Ecommerce
+companies have achieved great success through
+using the personalized recommendation technology in their
+business, such as Joyo/Amazon, eBay and YouTube etc. All
+these Open Bookmark system in Tsinghai University China
+also put personalized recommendation technology to use.
+Many colleges and universities library also launched
+personalized recommendation service learning.
